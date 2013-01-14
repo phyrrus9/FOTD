@@ -28,6 +28,8 @@
 #include <errno.h>
 #include <arpa/inet.h> 
 
+#define HOSTNAME_SERVER "97.85.65.20"
+
 #ifndef _WIN32
     #include <curses.h>
 #endif
@@ -64,7 +66,7 @@ int main(int argc, char *argv[])
     char waitforuser_exit = 1;
     char hostip[20];
     PORT = PORTNO;
-    strcpy(hostip, "127.0.0.1");
+    strcpy(hostip, HOSTNAME_SERVER);
 #ifndef _WIN32
     //initialize the ncurses windows
     initscr();
