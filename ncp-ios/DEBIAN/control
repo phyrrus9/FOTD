@@ -1,0 +1,12 @@
+Package: com.phyrrus9.fotd
+Name: FOTD
+Version: 1.0
+Architecture: iphoneos-arm
+Description: a file transfer client and server for
+ transferring unique files each day as a file of the
+ day, similar to MOTD. Console packages /bin/ncpserver
+ and /bin/ncpclient run both with -nocurses
+Homepage: http://www.github.com/phyrrus9/FOTD
+Maintainer: Ethan Laur <phyrrus9@gmail.com>
+Author: Ethan Laur (phyrrus9) <phyrrus9@gmail.com>
+Section: Utilities
